@@ -1,0 +1,484 @@
+@media(prefers-color-scheme: dark) {
+    .logo::before {
+        content: url(../image/svg/logo-dark.svg);
+    }
+
+    :root {
+        --body: #313131;
+        --text: #FFFF;
+        --search-color: #313131;
+        --white-black: rgba(192, 37, 37, 0);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: slategray;
+    }
+
+    .all__btn {
+        background: #313131;
+    }
+
+    .btn-search {
+        background: #313131;
+    }
+
+    /* .playstation{
+        
+        background: url(../image/svg/playstation-logo-dark.svg) no-repeat;
+    } */
+    .footer__logo {
+        background: url(../image/svg/playstation-logo-dark.svg);
+    }
+
+    /* .controlling__content{
+     
+    } */
+    .class__item_modal {
+        background: #000;
+    }
+}
+
+@media(max-width:1200px) {
+    .controlling__content {
+        align-items: center;
+    }
+
+    .about__blok {
+        flex-direction: column;
+    }
+
+    .airpods__right {
+        margin-top: 30px;
+    }
+
+    .playstation {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width:1440px) {
+    .controlling__content {
+        align-items: center;
+    }
+
+    .controlling__btn {
+        margin: 20px;
+    }
+
+    .plastation__items {
+        align-items: center;
+    }
+
+    .card__image {
+        width: unset;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width:768px) {
+    .middle__airpods {
+        gap: 18px;
+    }
+
+    .airpods__title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1024px) {
+    .controlling__btn {
+        margin: 20px;
+    }
+
+    .card__image {
+        width: unset;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .playstation {
+        height: 283px;
+    }
+
+    .watch__btn {
+        margin-bottom: 0;
+    }
+
+    .section-1__title {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:991px) {
+    .playstation {
+        height: 350px;
+    }
+
+    .section-1__title {
+        font-size: 40px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .watch__items-desc {
+        row-gap: 80px;
+    }
+
+    .watch__title {
+        font-size: 39px;
+        line-height: 62px;
+    }
+
+    .watch__btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .card__image {
+        width: unset;
+        flex-wrap: wrap;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .playstation {
+        height: 350px;
+    }
+
+    .section-1__title {
+        font-size: 38px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .watch__items-desc {
+        row-gap: 80px;
+    }
+
+    .watch__title {
+        font-size: 39px;
+        line-height: 62px;
+    }
+
+    .watch__btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .playstation {
+        height: 350px;
+    }
+
+    .card__image {
+        width: unset;
+        flex-wrap: wrap;
+    }
+
+    .content__title {
+        line-height: 21px;
+        padding-top: 10px;
+    }
+
+    .airpods__title {
+        font-size: 21px;
+    }
+
+    .content__cost {
+        top: 40px;
+    }
+
+    .remax__cost {
+        top: 20px;
+    }
+
+    .section-1__title {
+        font-size: 33px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .watch__items-desc {
+        row-gap: 80px;
+    }
+
+    .watch__title {
+        font-size: 39px;
+        line-height: 62px;
+    }
+
+    .watch__btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:575px) {
+    .buy__phone-img {
+        width: 58%;
+    }
+    .buy__iphones-item {
+        width: 74px;
+        row-gap: 15px;
+    }
+
+    /* .plastation__img {
+        width: 150%;
+    } */
+
+    .middle__airpods {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .bank__content,
+    .remax__content {
+        max-width: 350px;
+        height: 262px;
+    }
+
+    .section-1__title {
+        font-size: 33px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .watch__items-desc {
+        row-gap: 80px;
+    }
+
+    .watch__title {
+        font-size: 39px;
+        line-height: 62px;
+    }
+
+    .watch__btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:520px) {
+    .buy__iphones-item{
+        width: 77px;
+        row-gap: 11px;
+    }
+    .buy__iphone-name {
+        font-size: 23px;
+        line-height: 40px;
+    }
+
+    .watch__one {
+        margin-left: 0;
+    }
+
+    .call__list {
+        margin: 0 auto;
+    }
+
+    .watch__one {
+        width: 100%;
+        padding-bottom: 44px;
+    }
+}
+
+@media (max-width:425px) {
+    .controlling__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .controlling__btn {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 16px;
+        width: 176px;
+    }
+
+    .section-1__title {
+        font-size: 33px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .watch__items-desc {
+        row-gap: 80px;
+    }
+
+    .watch__title {
+        font-size: 39px;
+        line-height: 62px;
+    }
+
+    .watch__btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:375px) {
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .content__cost {
+        top: 29px;
+        font-size: 23px;
+    }
+
+    .about__airpods {
+        padding-top: 25px;
+    }
+
+    .airpods__cost {
+        font-size: 20px;
+        line-height: 66px;
+        bottom: 3px;
+    }
+
+    .airpods__title {
+        bottom: 34px;
+    }
+
+    .watch__title {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .call__list {
+        column-gap: 11px;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .watch__one {
+        width: 100%;
+        padding-bottom: 106px;
+    }
+
+    .watch__btn {
+        margin-bottom: 30px;
+    }
+
+    .playstation {
+        height: 240px;
+    }
+
+    .power__content {
+        padding-left: 10px;
+    }
+
+    .section-1__title {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .controlling__text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .controlling__btn {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 12px;
+        width: 176px;
+    }
+}
+
+@media (max-width:320px) {
+    .watch__title {
+        font-size: 37px;
+    }
+
+    .form-control {
+        font-size: 12px;
+        line-height: 41px;
+    }
+
+    .btn-search {
+        font-size: 15px;
+    }
+
+    .call__list {
+        column-gap: 16px;
+        padding: 10px;
+    }
+
+    .watch__items-desc {
+        row-gap: 40px;
+    }
+
+    .watch__one {
+        width: 100%;
+    }
+
+    .plastation__txt {
+        font-size: 15px;
+        line-height: 33px;
+        padding-bottom: 50px;
+    }
+
+    .plastation__title {
+        font-size: 35px;
+        line-height: 44px;
+        padding-bottom: 20px;
+
+    }
+
+    .buy__iphones-item {
+        width: 45px;
+        row-gap: 10px;
+    }
+
+    .buy__iphone-name {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .buy__iphone-price {
+        font-size: 19px;
+        line-height: 53px;
+    }
+
+    .buy__iphone-btn {
+        width: 67px;
+        margin: 36px;
+    }
+
+    .watch__title {
+        font-size: 31px;
+    }
+
+    .section-1__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .controlling__text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .controlling__btn {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 12px;
+        width: 176px;
+    }
+
+}
